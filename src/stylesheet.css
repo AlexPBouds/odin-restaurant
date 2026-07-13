@@ -1,3 +1,26 @@
-h1 {
-  text-align: center;
+:root {
+  --primary-bg-color: #2d3250;
+  --secondary-bg-color: #424769;
+  --primary-color: #676f9d;
+  --button-color: #f9b17a;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary-bg-color);
+  height: 100px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
