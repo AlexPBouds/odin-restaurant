@@ -1,13 +1,19 @@
+@font-face {
+  font-family: "Aesthetik Script";
+  src: url(./fonts/AesthetikScript-7ZnV.ttf);
+}
+
 :root {
   --primary-accent: #a3291b;
   --secondary-accent: #f2c14e;
   --body-text: #1f2a33;
-  --background-color: #fdf6ec;
+  --background-color: #f8e8ce;
   --third-accent: #3c6e60;
   --headings-font: "Playfair Display";
   --body-font: "Work Sans";
   --menu-items-names-font: "PT Serif";
   --menu-items-desc-font: "Roboto";
+  --logo-font: "Aesthetik Script";
 }
 
 body {
@@ -19,7 +25,7 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  align-items: center;
   background-color: var(--primary-accent);
   height: 100px;
 }
@@ -30,4 +36,17 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  padding-right: 24px;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-size: 32px;
+  width: 100%;
+  padding-left: 16px;
+  color: var(--secondary-accent);
+}
+
+.filler {
+  width: 100%;
 }
