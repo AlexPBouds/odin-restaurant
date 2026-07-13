@@ -1,5 +1,5 @@
-export function pageLoad(contentContainer) {
-  const testDiv = document.createElement("div");
-  testDiv.innerText = "This is a test";
-  contentContainer.append(testDiv);
+import { homePage } from "./tabs/home.js";
+
+export function pageLoad(contentContainer, currentTab) {
+  contentContainer.append(homePage);
 }
