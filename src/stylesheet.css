@@ -1,19 +1,26 @@
 :root {
-  --primary-bg-color: #2d3250;
-  --secondary-bg-color: #424769;
-  --primary-color: #676f9d;
-  --button-color: #f9b17a;
+  --primary-accent: #a3291b;
+  --secondary-accent: #f2c14e;
+  --body-text: #1f2a33;
+  --background-color: #fdf6ec;
+  --third-accent: #3c6e60;
+  --headings-font: "Playfair Display";
+  --body-font: "Work Sans";
+  --menu-items-names-font: "PT Serif";
+  --menu-items-desc-font: "Roboto";
 }
 
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  background-color: var(--background-color);
+  color: var(--body-text);
+  font-family: var(--body-font), sans-serif;
 }
 
 header {
   display: flex;
   justify-content: center;
-  background-color: var(--secondary-bg-color);
+  background-color: var(--primary-accent);
   height: 100px;
 }
 

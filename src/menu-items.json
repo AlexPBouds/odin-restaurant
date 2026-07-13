@@ -1,0 +1,64 @@
+{
+    "appetizers": [
+        {
+            "name": "Lobster Bisque",
+            "price": "$12"
+        },
+        {
+            "name": "Lobster Deviled Eggs",
+            "price": "$10"
+        },
+        {
+            "name": "Crispy Lobster Bites",
+            "price": "$14"
+        },
+        {
+            "name": "Lobster & Corn Fritters",
+            "price": "$13"
+        }
+    ],
+    "main-courses": [
+        {
+            "name": "Classic Butter-Poached Lobster",
+            "price": "$38"
+        },
+        {
+            "name": "Lobster Roll",
+            "price": "$22"
+        },
+        {
+            "name": "Lobster Mac & Cheese",
+            "price": "$19"
+        },
+        {
+            "name": "Surf & Turf",
+            "price": "$42"
+        },
+        {
+            "name": "Linguine alla Lobster",
+            "price": "$26"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "The Claw Breaker",
+            "price": "$12"
+        },
+        {
+            "name": "Buttered Rum Old Fashioned",
+            "price": "$13"
+        },
+        {
+            "name": "Sparkling Sea Breeze",
+            "price": "$11"
+        },
+        {
+            "name": "Coastal Lemonade",
+            "price": "$5"
+        },
+        {
+            "name": "Iced Herbal Sun Tea",
+            "price": "$5"
+        }
+    ]
+}
