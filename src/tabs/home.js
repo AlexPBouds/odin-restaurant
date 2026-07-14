@@ -1,8 +1,12 @@
 export const homePage = document.createElement("div");
+homePage.classList.add("page-tab");
 
 const taglineContainer = document.createElement("div");
+taglineContainer.classList.add("container");
 const hoursContainer = document.createElement("div");
+hoursContainer.classList.add("container");
 const locationContainer = document.createElement("div");
+locationContainer.classList.add("container");
 
 const taglineHeader = document.createElement("h1");
 taglineHeader.classList.add("title");
@@ -54,6 +58,7 @@ locationHeader.innerHTML = "Store Location";
 locationContainer.append(locationHeader);
 
 const locationAddress = document.createElement("div");
+locationAddress.classList.add("address");
 locationAddress.innerText = "229 Main St Rotary Park, Shediac, New Brunswick";
 locationContainer.append(locationAddress);
 
