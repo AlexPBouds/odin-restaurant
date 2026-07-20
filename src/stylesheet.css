@@ -9,6 +9,7 @@
   --body-text: #1f2a33;
   --background-color: #f8e8ce;
   --third-accent: #3c6e60;
+  --fourth-accent: #ffe7c1;
   --headings-font: "Playfair Display";
   --body-font: "Work Sans";
   --menu-items-names-font: "PT Serif";
@@ -77,6 +78,11 @@ body {
   -webkit-transition: margin 0.5s ease;
 
   transition: margin 0.5s ease;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .circle {
@@ -159,7 +165,7 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: #a3291b;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 24px;
   min-width: 500px;
 }
@@ -167,7 +173,7 @@ nav {
 .container {
   display: flex;
   flex-direction: column;
-  background-color: var(--secondary-accent);
+  background-color: var(--fourth-accent);
   border-radius: 10px;
   width: 100%;
   justify-content: center;
@@ -177,7 +183,7 @@ nav {
 }
 
 .container h1 {
-  margin: 16px;
+  margin: 16px 16px 0;
 }
 
 .address {
@@ -188,4 +194,11 @@ nav {
 
 .title {
   font-family: var(--menu-items-names-font);
+}
+
+.tagline {
+  font-style: italic;
+  width: 400px;
+  text-wrap: wrap;
+  text-align: center;
 }
